@@ -6,7 +6,7 @@
 
 <hr>
 
-Ubuntu Theme for Vim
+# Ubuntu Theme for Vim
 
 Welcome to the Ubuntu Theme for Vim! This theme is designed to bring the clean and modern aesthetic of the Ubuntu operating system to your Vim editor, providing a visually appealing and productive coding environment.
 Features
