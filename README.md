@@ -4,9 +4,9 @@
 
 <!-- README -->
 
-<hr>
-
 # Ubuntu Theme for Vim
+
+<div align="center"><img src="https://github.com/dntstck/ubuntu.vim/ubuntuvim.png"></img></div>
 
 Welcome to the Ubuntu Theme for Vim! This theme is designed to bring the clean and modern aesthetic of the Ubuntu operating system to your Vim editor, providing a visually appealing and productive coding environment.
 Features
