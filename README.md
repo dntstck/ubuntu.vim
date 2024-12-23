@@ -9,7 +9,8 @@
 ![Screenshot](/ubuntuvim.png)
 
 Welcome to the Ubuntu Theme for Vim! This theme is designed to bring the clean and modern aesthetic of the Ubuntu operating system to your Vim editor, providing a visually appealing and productive coding environment.
-Features
+
+# Features
 
 - Ubuntu-Inspired Colors: Enjoy a color scheme inspired by the Ubuntu desktop environment, featuring a harmonious blend of orange, purple, and other complementary colors.
 - High Contrast: Designed for readability and clarity, with high contrast between foreground and background elements to reduce eye strain during long coding sessions.
