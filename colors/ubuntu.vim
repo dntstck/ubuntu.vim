@@ -1,4 +1,4 @@
-" ubuntu_comprehensive.vim
+" ubuntu.vim
 " A comprehensive Vim colorscheme based on the Ubuntu color palette with extensive plugin support
 " @dntstck
 
