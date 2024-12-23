@@ -13,33 +13,33 @@ function! airline#themes#ubuntu#refresh()
   let s:inactivefg = '#D3D7CF'
 
   let g:airline#themes#ubuntu#palette.normal = airline#themes#generate_color_map(
-        \ [s:normalfg, s:normalbg, s:normalfg],
-        \ [s:normalbg, s:normalfg, s:normalbg],
-        \ [s:normalfg, s:normalbg, s:normalfg]
+        \ [s:normalfg, s:normalbg],
+        \ [s:normalfg, s:normalbg],
+        \ [s:normalfg, s:normalbg]
         \ )
 
   let g:airline#themes#ubuntu#palette.insert = airline#themes#generate_color_map(
-        \ [s:insertfg, s:insertbg, s:insertfg],
-        \ [s:insertbg, s:insertfg, s:insertbg],
-        \ [s:insertfg, s:insertbg, s:insertfg]
+        \ [s:insertfg, s:insertbg],
+        \ [s:insertfg, s:insertbg],
+        \ [s:insertfg, s:insertbg]
         \ )
 
   let g:airline#themes#ubuntu#palette.visual = airline#themes#generate_color_map(
-        \ [s:visualfg, s:visualbg, s:visualfg],
-        \ [s:visualbg, s:visualfg, s:visualbg],
-        \ [s:visualfg, s:visualbg, s:visualfg]
+        \ [s:visualfg, s:visualbg],
+        \ [s:visualfg, s:visualbg],
+        \ [s:visualfg, s:visualbg]
         \ )
 
   let g:airline#themes#ubuntu#palette.replace = airline#themes#generate_color_map(
-        \ [s:replacefg, s:replacebg, s:replacefg],
-        \ [s:replacebg, s:replacefg, s:replacebg],
-        \ [s:replacefg, s:replacebg, s:replacefg]
+        \ [s:replacefg, s:replacebg],
+        \ [s:replacefg, s:replacebg],
+        \ [s:replacefg, s:replacebg]
         \ )
 
   let g:airline#themes#ubuntu#palette.inactive = airline#themes#generate_color_map(
-        \ [s:inactivefg, s:inactivebg, s:inactivefg],
-        \ [s:inactivebg, s:inactivefg, s:inactivebg],
-        \ [s:inactivefg, s:inactivebg, s:inactivefg]
+        \ [s:inactivefg, s:inactivebg],
+        \ [s:inactivefg, s:inactivebg],
+        \ [s:inactivefg, s:inactivebg]
         \ )
 endfunction
 
