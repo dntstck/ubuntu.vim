@@ -74,18 +74,18 @@ highlight PmenuSbar guibg=#2C001E
 highlight PmenuThumb guibg=#5E2750
 
 " NERDTree colors
-highlight NERDTreeDir guifg=#DD4814 guibg=#2C001E
-highlight NERDTreeDirSlash guifg=#DD4814 guibg=#2C001E
-highlight NERDTreeOpenable guifg=#AEA79F guibg=#2C001E
-highlight NERDTreeClosable guifg=#AEA79F guibg=#2C001E
-highlight NERDTreeFile guifg=#AEA79F guibg=#2C001E
-highlight NERDTreeExecFile guifg=#DD4814 guibg=#2C001E
-highlight NERDTreeCWD guifg=#DD4814 guibg=#2C001E
-highlight NERDTreeFlags guifg=#DD4814 guibg=#2C001E
-highlight NERDTreeUp guifg=#87CEEB guibg=#2C001E
-highlight NERDTreeUpDir guifg=#87CEEB guibg=#2C001E
-highlight NERDTreeCurrent guifg=#DD4814 guibg=#2C001E
-highlight NERDTreeSeparator guifg=#310026 guibg=#310026
+highlight NERDTreeDir guifg=#FFAD86 guibg=#7A405A
+highlight NERDTreeDirSlash guifg=#FFAD86 guibg=#7A405A
+highlight NERDTreeOpenable guifg=#D3CFCF guibg=#7A405A
+highlight NERDTreeClosable guifg=#D3CFCF guibg=#7A405A
+highlight NERDTreeFile guifg=#D3CFCF guibg=#7A405A
+highlight NERDTreeExecFile guifg=#FFAD86 guibg=#7A405A
+highlight NERDTreeCWD guifg=#FFAD86 guibg=#7A405A
+highlight NERDTreeFlags guifg=#FFAD86 guibg=#7A405A
+highlight NERDTreeUp guifg=#ADD8E6 guibg=#7A405A
+highlight NERDTreeUpDir guifg=#ADD8E6 guibg=#7A405A
+highlight NERDTreeCurrent guifg=#FFAD86 guibg=#E27D6A
+highlight NERDTreeSeparator guifg=#8B536E guibg=#8B536E
 
 " Tagbar colors
 highlight TagbarHighlight guifg=#AEA79F guibg=#2C001E

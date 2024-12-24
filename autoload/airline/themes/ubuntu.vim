@@ -12,35 +12,35 @@ function! airline#themes#ubuntu#refresh()
   let s:inactivebg = '#555753'
   let s:inactivefg = '#D3D7CF'
 
-  let g:airline#themes#ubuntu#palette.normal = airline#themes#generate_color_map(
-        \ [s:normalfg, s:normalbg],
-        \ [s:normalfg, s:normalbg],
-        \ [s:normalfg, s:normalbg]
-        \ )
+  let g:airline#themes#ubuntu#palette.normal = {
+        \ 'airline_a': [s:normalfg, s:normalbg],
+        \ 'airline_b': [s:normalbg, s:normalfg],
+        \ 'airline_c': [s:normalfg, s:normalbg]
+      \ }
 
-  let g:airline#themes#ubuntu#palette.insert = airline#themes#generate_color_map(
-        \ [s:insertfg, s:insertbg],
-        \ [s:insertfg, s:insertbg],
-        \ [s:insertfg, s:insertbg]
-        \ )
+  let g:airline#themes#ubuntu#palette.insert = {
+        \ 'airline_a': [s:insertfg, s:insertbg],
+        \ 'airline_b': [s:insertbg, s:insertfg],
+        \ 'airline_c': [s:insertfg, s:insertbg]
+      \ }
 
-  let g:airline#themes#ubuntu#palette.visual = airline#themes#generate_color_map(
-        \ [s:visualfg, s:visualbg],
-        \ [s:visualfg, s:visualbg],
-        \ [s:visualfg, s:visualbg]
-        \ )
+  let g:airline#themes#ubuntu#palette.visual = {
+        \ 'airline_a': [s:visualfg, s:visualbg],
+        \ 'airline_b': [s:visualbg, s:visualfg],
+        \ 'airline_c': [s:visualfg, s:visualbg]
+      \ }
 
-  let g:airline#themes#ubuntu#palette.replace = airline#themes#generate_color_map(
-        \ [s:replacefg, s:replacebg],
-        \ [s:replacefg, s:replacebg],
-        \ [s:replacefg, s:replacebg]
-        \ )
+  let g:airline#themes#ubuntu#palette.replace = {
+        \ 'airline_a': [s:replacefg, s:replacebg],
+        \ 'airline_b': [s:replacebg, s:replacefg],
+        \ 'airline_c': [s:replacefg, s:replacebg]
+      \ }
 
-  let g:airline#themes#ubuntu#palette.inactive = airline#themes#generate_color_map(
-        \ [s:inactivefg, s:inactivebg],
-        \ [s:inactivefg, s:inactivebg],
-        \ [s:inactivefg, s:inactivebg]
-        \ )
+  let g:airline#themes#ubuntu#palette.inactive = {
+        \ 'airline_a': [s:inactivefg, s:inactivebg],
+        \ 'airline_b': [s:inactivebg, s:inactivefg],
+        \ 'airline_c': [s:inactivefg, s:inactivebg]
+      \ }
 endfunction
 
 call airline#themes#ubuntu#refresh()
